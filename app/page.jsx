@@ -5,7 +5,7 @@ import FlipCard from '@/components/FlipCard';
 import { images } from '@/components/images';
 
 export default function Home() {
-  const sliderRef = useRef(null);
+  const sliderRef = useRef();
 
   useEffect(() => {
     const slider = sliderRef.current;
