@@ -1,3 +1,5 @@
+"use client"
+
 import img1 from '../public/char 4x4 inches/male (1).png'
 import img2 from '../public/char 4x4 inches/male (2).png'
 import img3 from '../public/char 4x4 inches/male (3).png'

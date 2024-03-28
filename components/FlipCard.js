@@ -1,3 +1,5 @@
+"use client"
+
 import moveCard from "./moveCard";
 import { gsap } from "gsap";
     
