@@ -14,10 +14,10 @@ export default function Home() {
       FlipCard(slider);
     };
 
-    document.body.addEventListener("click", handleClick);
+    window.addEventListener("click", handleClick);
 
     return () => {
-      document.body.removeEventListener("click", handleClick);
+      window.removeEventListener("click", handleClick);
     };
   }, []);
 
