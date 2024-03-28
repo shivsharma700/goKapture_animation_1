@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div ref={sliderRef} className="slider">
       {images.map((item, index) => (
-        <div className="item rounded-lg overflow-hidden" key={index}>
+        <div className="item rounded-lg overflow-hidden bg-slate-300 " key={index}>
           <img src={item.src} alt="img" />
         </div>
       ))}
