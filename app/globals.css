@@ -40,7 +40,6 @@ justify-content: center;
   align-items: center;
 min-height: 100vh;
   cursor: pointer;
-  min-width: 100vh;
   /* background-image: url("https://media.istockphoto.com/id/1067170704/vector/blue-speed-lines-2.jpg?s=612x612&w=0&k=20&c=R0imzoOexhqnNOikZh55omdg1PPotgyD3e8OzLzC694=");
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,7 +61,7 @@ min-height: 100vh;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  background-color: blue;
+  /* background-color: blue; */
   /* // transition: all 0.6s ease; // ⚠️ Never use 'all' and try to not use transtion when working with GSAP  */
 }
 
